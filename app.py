@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def hello():
-    return "Pinging Model!!"
+    return "Pinging Model from shivank!!"
 
 ## loading the model
 model_pickle = open("classifier.pkl", 'rb')
